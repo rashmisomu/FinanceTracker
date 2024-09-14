@@ -20,8 +20,6 @@ catch(error){
  console.error(error);
         res.status(500).json({ msg: 'Server error' });
 }
-  
-
 }
 
 exports.getIncomes=async(req,res)=>{
